@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content="Travelly is a travel agency website that helps you pick out uour oliday vacation">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="icons/travelling.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Travelly || Travelling website</title>
+</head>
+
+<body>
+    <header class="main-head">
+        <nav>
+            <h1 id="logo">Travelly</h1>
+            <ul>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Travel Beyond Limits.</h2>
+        <h3>Start your travel at an affordable price with Travelly <br/>Contact us now below </h3>
+        <button class="btn-1">Book now</button>
+    </section>
+
+    <section id="locations">
+        <header class="locations-head">
+            <h2>The Perfect Travelling Experience.</h2>
+            <h3>We cover everything from picking the perfect hotel, <br/> flight and travelling destination.</h3>
+            <img src="img/cloud.png" class="moving-cloud-1 cloud">
+            <img src="img/cloud.png" class="moving-cloud-2 cloud">
+        </header>
+
+    </section>
+
+    <section class="benefits">
+        <header class="benefits-head">
+            <h2>The Perfect Travel.</h2>
+            <h3>We cover everything for picking the perfect hotel <br/> to flight and destination.</h3>
+        </header>
+        <div class="cards">
+            <div class="card">
+                <div class="card-icon">
+                    <img src="/icons/route-solid.svg" alt="">
+                </div>
+                <h4>Travel</h4>
+                <p>Travel in over 250 countries with no effort. Visit astoundingly beautiful tourist friendly countries like the United States, United Arab Emirates, Switzerland, Sweden, Italy and many many more.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img src="/icons/bed-solid.svg" alt="">
+                </div>
+                <h4>Hotel</h4>
+                <p>Hotels located in near popular areas. Book Airbnb, hotel and motel near popular tourist locations for surprisingly cheap prices.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img src="/icons/plane-departure-solid.svg" alt="">
+                </div>
+                <h4>Fly</h4>
+                <p>Flight included in every purchased trip. Yes, you heard it right! We provide a free trip after every 4 tickets you purchase.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="form-wrapper"> 
+            <header class="form-head">
+                <h2>Contact Us</h2>
+            </header>
+            <form action="https://formspree.io/f/mayadweg"
+            method="POST">
+                <div class="name-form">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="email-form">
+                    <label for="email">Email:</label>
+                    <input type="email" name="_replyto" required>
+                </div>
+                <div class="contact-form">
+                    <label for="name">Message:</label>
+                    <textarea name="message" id= "message" cols="0" rows="3.5"></textarea>
+                </div>
+                <button class="btn-2" type="submit" value="Send">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-wrapper">
+            <h5>Travelly &copy;</h5>
+            <ul>
+                <li>
+                    <a href="#"><img src="/icons/twitter.svg"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="/icons/youtube.svg"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="/icons/instagram.svg"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
